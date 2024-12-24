@@ -83,7 +83,7 @@ function main() {
   document.querySelector('#quantity').parentElement.addEventListener("click",function(){
     if(cart.length){
         console.log("first")
-        window.location.replace('/cart.html')
+        window.location.replace('cart.html')
     }
     else{
         alert("no items in your cart")
